@@ -1,4 +1,4 @@
-# AIGroupChatroom
+# Epic Horizon
 
 ## 整体思路
 
@@ -48,31 +48,43 @@
 
 ### 前端
 
+或许使用浏览器，或许会对每个平台构建一个应用程序。
+也可能是一个游戏引擎驱动？
+
 ## 组件实现
 
 ### 世界环境配置
 
 #### 世界地图
 
+大地图，啥都有，不包括细节，最简描述，可选，因为有的单剧本不需要。
+
+属性：
+
+1. 地图名称
+2. 模式名称：包括探索、未知、全知。
+
 #### 环境地图
 
 基础区域知识提供者。
+高度配置。
 
 #### 功能区
 
-功能区是环境地图的细节，处理与角色
+功能区是环境地图的细节，处理与角色互动和环境的一部分。
+目前功能使用矩形表示（因为好处理、可能未来有更好的方式计算和表示）。
 
 ## 界面设计
 
 ### 尝鲜版
 
-来自`特斯拉`的尝鲜版页面设置：
+来自`斯特拉`的尝鲜版页面设置：
 ![打赏](./打赏.png)
 
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+[LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 © 2025 BrownHello
